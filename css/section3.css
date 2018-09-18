@@ -1,0 +1,53 @@
+.container {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.my-form {
+	width: 500px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.my-form input, .my-form button {
+	height: 50px;
+	margin: 0;
+	padding-left: 20px;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+
+.my-form button {
+	padding: 0;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 1rem;
+	font-weight: normal;
+	transition: 0.3s;
+}
+
+.my-form input:focus {
+	border-color: #DCEA00;
+}
+
+.my-form button:hover {
+	background-color: #303030;
+	color: #fff;
+}
+
+
+
+@media screen and (min-width: 768px) {
+	.my-form {
+		width: 600px;
+		height: 400px
+	}
+
+	.my-form input, .my-form button {
+		height: 70px;
+	}
+}

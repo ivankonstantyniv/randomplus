@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Description">
+	<meta name="keywords" content="Keywords">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="libs/fontawesome/css/all.min.css"> <!-- fontawesome all -->
+	<link rel="stylesheet" href="libs/animate-css/animate.css"> <!-- animate-->
+	<link rel="stylesheet" href="css/main.css"> <!-- Main css-->
+
+
+	<title>RANDOMPLUS by Ivan Konstantyniv</title>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+			<![endif]-->
+		<!--[if lt IE 11]>
+      
+      <![endif]-->
+</head>
+<body>
+	
+	<div id="warning">
+		<p><span>Sorry</span>, but your browser<br>isn't up-to-date!<br>We recommend you Chrome,<br>Edge, Firefox or Safari.</p>
+	</div>
+
+	<header class="header">
+		<div class="container">
+			<div class="header-bar wow fadeInDown">
+				<a href="#" class="my-logo">Random<span class="light-green">plus</span></a>
+				<a href="#" class="new-logo">R<span class="light-green">P</span></a>
+
+			<ul class="social-list">
+					<li><a href="https://www.facebook.com/ikonstantyniv" target="_blank"><i class="fab fa-facebook social-icon"></i></a></li>
+					<li><a href="https://www.instagram.com/ivkonstantynov/" target="_blank"><i class="fab fa-instagram social-icon"></i></a></li>
+					<li><a href="https://plus.google.com/112023290220488849544" target="_blank"><i class="fab fa-google-plus-square social-icon"></i></a></li>
+			</ul>
+			</div>
+
+			<div class="side-bar-fixed">
+				<ul class="circles-list wow fadeInLeft">
+					<li><a href="#position1">01</a></li>
+					<li><a href="#position2">02</a></li>
+					<li><a href="#position3">03</a></li>
+					<li><a href="#position4">04</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</header>
+
+	<section class="section0" id="position1">
+		<h1 class="welcome wow zoomIn" data-wow-offset="100" data-wow-duration="1.5s">WELC<span class="light-green bounce-letter">O</span>ME</h1>
+	</section>
+
+	<section class="section1" id="position2">
+		<h2 class="wow slideInLeft" data-wow-offset="100" data-wow-duration="1.5s">T<span class="light-green bounce-letter">O</span> THE</h2>
+	</section>
+
+	<section class="section2" id="position3">
+			<h2 class="wow bounceInRight" data-wow-offset="100" data-wow-duration="1.5s">RAND<span class="light-green bounce-letter">O</span>M <br><span class="light-green">PLUS</span></h2>
+	</section>
+
+	<section class="section3" id="position4">
+
+		<div class="container">
+				<form name="random" class="my-form">
+
+						<input type="text" name="numberMin" id="input-min" placeholder="enter a min number" min="0">
+						<input type="text" name="numberMax" id="input-max" placeholder="enter a max number" min="1">
+						<input type="text" name="value" id="value" disabled>
+						<button type="reset" class="reset-btn">Reset</button>
+						<button type="submit" class="enter-btn">Random</button>
+			
+				</form>
+		</div>
+
+	</section>
+
+	<footer class="footer">
+
+		<div class="container">
+			<div class="flex-container">
+						<p>Copyright 2018 <br>All rights reserved <br>Powered by Ivan Konstantyniv</p>
+						<a href="https://www.instagram.com/ivkonstantynov/" target="_blank" class="footer-button">Follow Me</a>
+				</div>
+			</div>
+
+	</footer>
+
+
+	<script src="libs/jQuery/jQuery.min.js"></script> <!--jQuery-->
+	<script src="js/main.js" defer async></script> <!--main.js-->
+	<script src="js/random.js" defer async></script> <!--random.js-->
+	<script src="libs/detect.js/detect.js" defer async></script> <!--detect.js-->
+	<script src="libs/wow/wow.min.js"></script> <!--wow.js-->
+	<script>
+		new WOW().init();
+	</script>
+</body>
+</html>

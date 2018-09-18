@@ -1,0 +1,35 @@
+@import url("fonts.css");
+@import url("normalize.css");
+@import url("../libs/Skeleton-2.0.4/css/skeleton.css");
+@import url("warning.css");
+@import url("header.css");
+@import url("section0.css");
+@import url("section1.css");
+@import url("section2.css");
+@import url("section3.css");
+@import url("footer.css");
+
+* {
+	box-sizing: border-box;
+	font-family: "Poppins", Arial, sans-serif;
+}
+
+html, body {
+	overflow-x: hidden;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol, dl {
+	list-style: none;
+}
+
+section {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
