@@ -18,11 +18,11 @@ $(document).ready(function(){
 		}
 
 		if  (
-					isNaN(inputMin.value) ||
-					isNaN(inputMax.value) ||
-					Math.sign(inputMin.value) === -1 ||
-					Math.sign(inputMax.value) === -1 ||
-					+inputMin.value >= +inputMax.value
+				isNaN(inputMin.value) ||
+				isNaN(inputMax.value) ||
+				+inputMin.value >= +inputMax.value ||
+			 	inputMin.value === '' ||
+			 	inputMax.value === ''
 				) {
 				value.value = 'Error! Something went wrong!';
 		} else {
