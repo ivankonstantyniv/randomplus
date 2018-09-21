@@ -1,7 +1,7 @@
   ***RANDOMPLUS BY IVAN KONSTANTYNIV***
 Welcome to the github page of Randomplus;
 The developer is Ivan Konstantyniv(Lviv, UA);
-You cannot use the code, the name and a design of this website. To read more, you can follow randomplusbykonstantyniv.github.io/license;
+You cannot use the code, the name and the design of this website. To read more, you can follow randomplusbykonstantyniv.github.io/license;
 
 
   ***USAGE***
