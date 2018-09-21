@@ -8,7 +8,7 @@ You cannot use the code, the name and a design of this website. To read more, yo
 You can choose min and max numbers to get a random number between them;
 
   ***OTHER***
-If you want to buy this website, write me: bigbaev777@gmail.com, or you can find me in the facebook or instargam;
+If you want to buy this website, write me: bigbaev777@gmail.com, or you can find me in the facebook or instagram;
 I would be grateful if you supported me with some money=)
 WEBMONEY wallets:
 WME - E139134498226
