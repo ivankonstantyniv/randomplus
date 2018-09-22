@@ -11,6 +11,7 @@
 	flex-direction: column;
 	align-content: center;
 	justify-content: space-around;
+	margin: 0;
 }
 
 .my-form input, .my-form button {
